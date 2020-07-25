@@ -1,0 +1,68 @@
+[
+    {
+        "name": "php",
+        "url": "https://php.net",
+        "category": "resource",
+        "description": "Official PHP source"
+    },
+    {
+        "name": "Epochtime convertor",
+        "url": "https://www.epochconverter.com",
+        "category": "tool",
+        "description": "Convert timestamps"
+    },
+    {
+        "name": "Netlify",
+        "url": "https://netlify.com",
+        "category": "Hosting",
+        "description": "Free Hosting"
+    },
+    {
+        "name": "Freepik",
+        "url": "https://freepik .com",
+        "category": "resource",
+        "description": "Free Images, Icons,Illustation"
+    },
+    {
+        "name": "Fontawesome",
+        "url": "https://fontawesome.com",
+        "category": "resource",
+        "description": "Free Icons"
+    },
+    {
+        "name": "GtMetrix",
+        "url": "https://gtmetrix.com",
+        "category": "tool",
+        "description": "Free webpage analysis"
+    },
+    {
+        "name": "Resume Builder",
+        "url": "https://resume.com",
+        "category": "tool",
+        "description": "Build your resume for free."
+    },
+    {
+        "name": "Regexr",
+        "url": "https://regexr.com",
+        "category": "tool",
+        "description": "Create ReGex"
+    },
+    {
+        "name": "Heroku",
+        "url": "https://heroku.com",
+        "category": "Hosting",
+        "description": "Free Hosting"
+    },
+    {
+        "name": "Base64 encode",
+        "url": "https://www.base64encode.org/",
+        "category": "tool",
+        "description": "Base64 encoding"
+    },
+    {
+        "name": "Base64 decode",
+        "url": "https://www.base64decode.org/",
+        "category": "tool",
+        "description": "Base64 decoding"
+    }
+]
