@@ -10,5 +10,11 @@
         "url": "https://heroku.com",
         "category": "resource",
         "description": "Free Hosting"
+    },
+    {
+        "name": "Surge",
+        "url": "https://surge.sh",
+        "category": "resource",
+        "description": "Free Hosting"
     }
 ]

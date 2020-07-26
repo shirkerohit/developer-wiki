@@ -1,7 +1,48 @@
 # dev-wiki
 This is just a beta version of overall Idea. A site of index cureated by developer for developers.
 
-## Project setup
+# #Contribution Guide.
+
+# - Add new Resource link.
+- Identify Category of link and please verify the link and ensure Its valid and working (No Ads please) We have now only 5 categories (feel free to suggest more..)
+1. Cources.
+2. Documentation.
+3. Hostings
+4. Resources (Icons,Images...)
+5. Tool (Online IDE or more..)
+
+- Look for `/src/data` folder and append your category if needed as
+ `{
+    "name": "Tools"
+ `},
+
+ or if you wish to use existing category note the value of key `name` eg. resources
+
+- Look for the JSON file with the Identified category appended with "Links" as postfix if you wish to use the existing one.
+eg. resourcesLinks.json
+
+OR
+
+- Add new file with category name and append the file name with Links (eg. newResourceLink) (The link prefix is just convention here.. nothing useful)
+
+- Append your link with following attributes in following format.
+eg.
+    {
+        "name": "Laravel",
+        "url": "https://laravel.com",
+        "category": "documentation",
+        "description": "Official Laravel guide."
+    }
+
+# - Register you Category for Drop-down:
+
+-  Open file `Store/index.js` and Import the new category and register under stage object.
+ `state: {
+    tools, hosting, resources, courses, documentation
+  }`
+
+
+## #Project Setup.
 ```
 npm install
 ```

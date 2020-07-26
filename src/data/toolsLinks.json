@@ -34,5 +34,35 @@
         "url": "https://www.base64decode.org/",
         "category": "tool",
         "description": "Base64 decoding"
+    },
+    {
+        "name": "Codepen",
+        "url": "https://codepen.io/",
+        "category": "tool",
+        "description": "Free Js/css panes, Playground"
+    },
+    {
+        "name": "JS fiddle",
+        "url": "https://jsfiddle.net",
+        "category": "tool",
+        "description": "Onlien Html, js, css playground"
+    },
+    {
+        "name": "Pastebin",
+        "url": "https://pastebin.com",
+        "category": "tool",
+        "description": "Copy paste and share online with anyone."
+    },
+    {
+        "name": "Ngrok",
+        "url": "https://ngrok.com",
+        "category": "tool",
+        "description": "Free tunneling to your local sites."
+    },
+    {
+        "name": "Markdown Editor",
+        "url": " https://dillinger.io",
+        "category": "tools",
+        "description": "Edit and creat Markdown online."
     }
 ]
