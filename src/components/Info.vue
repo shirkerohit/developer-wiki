@@ -8,7 +8,8 @@
         </template>
       </b-table>
       <div
-        v-if="filtered.length === 0 && searchTerm === ''"
+        class="text-center display-4 text-info"
+        v-if="(filtered.length === 0 && searchTerm === '')"
       >Choose Your category & Lets begin the search!</div>
       <div
         v-if="filtered.length === 0 && searchTerm !== ''"

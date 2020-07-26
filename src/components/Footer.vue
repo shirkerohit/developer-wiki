@@ -1,5 +1,5 @@
 <template>
-  <div class="row fixed-bottom">
+  <div class="row mt-10 fixed-bottom">
     <div class="col-12 text-center mb-2">
       Made with ❤ for developers by
       <a href="https://github.com/shirkerohit">Me</a>

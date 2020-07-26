@@ -64,5 +64,11 @@
         "url": " https://dillinger.io",
         "category": "tools",
         "description": "Edit and creat Markdown online."
+    },
+    {
+        "name": "Favicon generator",
+        "url": "https://favicon.io/",
+        "category": "tools",
+        "description": "Free favicon generator."
     }
 ]
