@@ -1,0 +1,20 @@
+[
+    {
+        "name": "php",
+        "url": "https://php.net",
+        "category": "resource",
+        "description": "Official PHP source"
+    },
+    {
+        "name": "Freepik",
+        "url": "https://freepik.com",
+        "category": "resource",
+        "description": "Free Images, Icons,Illustation"
+    },
+    {
+        "name": "Fontawesome",
+        "url": "https://fontawesome.com",
+        "category": "resource",
+        "description": "Free Icons"
+    }
+]

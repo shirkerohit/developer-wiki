@@ -1,13 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import links from '../data/links.json'
+import tools from '../data/toolsLinks.json'
+import hosting from '../data/hostingLinks.json'
+import resources from '../data/resourcesLinks.json'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    links
+    tools, hosting, resources
   },
   mutations: {
   },

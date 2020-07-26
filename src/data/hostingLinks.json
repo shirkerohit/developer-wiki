@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Netlify",
+        "url": "https://netlify.com",
+        "category": "resource",
+        "description": "Free Hosting"
+    },
+    {
+        "name": "Heroku",
+        "url": "https://heroku.com",
+        "category": "resource",
+        "description": "Free Hosting"
+    }
+]

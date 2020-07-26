@@ -5,7 +5,8 @@
         Developer Wiki
         <small>(Beta)</small>
       </h3>
-      <code>Simple site index (Please see Github.com for contribution)</code>
+      <p>Simple link index curated by developers for developers!</p>
+      <code>(Please see https://github.com/shirkerohit/developer-wiki for contribution)</code>
     </div>
   </div>
 </template>
