@@ -2,55 +2,55 @@
     {
         "name": "php",
         "url": "https://php.net",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official PHP source."
     },
     {
         "name": "Laravel",
         "url": "https://laravel.com",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Laravel guide."
     },
     {
         "name": "Laravel",
         "url": "https://laravel.com",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Laravel guide."
     },
     {
         "name": "React",
         "url": "https://reactjs.org",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official React guide."
     },
     {
         "name": "Angular",
         "url": "https://angular.io",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Angular guide."
     },
     {
         "name": "React",
         "url": "https://reactjs.org",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official React guide."
     },
     {
         "name": "Tailwind",
         "url": "https://tailwindcss.com",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Tailwind documentation (css framework)."
     },
     {
         "name": "Vue",
         "url": "https://vuejs.org/",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Vuejs documentation."
     },
     {
         "name": "W3schools",
         "url": "https://www.w3schools.com",
-        "category": "resource",
+        "category": "documentations",
         "description": "Online learning guild to Html,css,js,phython,java,c++,c#."
     }
 ]

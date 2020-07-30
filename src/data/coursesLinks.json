@@ -2,25 +2,25 @@
     {
         "name": "Laracast",
         "url": "https://laracast.com",
-        "category": "Courses",
+        "category": "cources",
         "description": "Laravel and web developement."
     },
     {
         "name": "Free Code camp",
         "url": "https://www.freecodecamp.org/",
-        "category": "Courses",
+        "category": "cources",
         "description": "Learn technlogies online certification (Js,html,css,phython,git,java,React,angular & more..)"
     },
     {
         "name": "Javascript30",
         "url": "https://javascript30.com",
-        "category": "Courses",
+        "category": "cources",
         "description": "Free 30 days js learning challenge."
     },
     {
         "name": "Vueschool",
         "url": "https://vueschool.io",
-        "category": "Courses",
+        "category": "cources",
         "description": "VueJs tutorials."
     }
 ]

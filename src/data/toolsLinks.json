@@ -2,61 +2,61 @@
     {
         "name": "Epochtime convertor",
         "url": "https://www.epochconverter.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Convert timestamps"
     },
     {
         "name": "GtMetrix",
         "url": "https://gtmetrix.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Free webpage analysis"
     },
     {
         "name": "Resume Builder",
         "url": "https://resume.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Build your resume for free."
     },
     {
         "name": "Regexr",
         "url": "https://regexr.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Create ReGex"
     },
     {
         "name": "Base64 encode",
         "url": "https://www.base64encode.org/",
-        "category": "tool",
+        "category": "tools",
         "description": "Base64 encoding"
     },
     {
         "name": "Base64 decode",
         "url": "https://www.base64decode.org/",
-        "category": "tool",
+        "category": "tools",
         "description": "Base64 decoding"
     },
     {
         "name": "Codepen",
         "url": "https://codepen.io/",
-        "category": "tool",
+        "category": "tools",
         "description": "Free Js/css panes, Playground"
     },
     {
         "name": "JS fiddle",
         "url": "https://jsfiddle.net",
-        "category": "tool",
+        "category": "tools",
         "description": "Onlien Html, js, css playground"
     },
     {
         "name": "Pastebin",
         "url": "https://pastebin.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Copy paste and share online with anyone."
     },
     {
         "name": "Ngrok",
         "url": "https://ngrok.com",
-        "category": "tool",
+        "category": "tools",
         "description": "Free tunneling to your local sites."
     },
     {
@@ -70,5 +70,23 @@
         "url": "https://favicon.io/",
         "category": "tools",
         "description": "Free favicon generator."
+    },
+    {
+        "name": "Image Placeholder",
+        "url": "https://dummyimage.com",
+        "category": "tools",
+        "description": "Online placeholder image generator."
+    },
+    {
+        "name": "Beautify Tools",
+        "url": "http://beautifytools.com",
+        "category": "tools",
+        "description": "Collection of beautification tools, HTML, CSS, JSON, YML, Editors, Utilities and more.."
+    },
+    {
+        "name": "Web Tools",
+        "url": "https://www.webtoolkitonline.com",
+        "category": "tools",
+        "description": "Collection of web developer tools"
     }
 ]

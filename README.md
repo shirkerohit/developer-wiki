@@ -16,10 +16,10 @@ This is just a beta version of overall Idea. A site of index cureated by develop
     "name": "Tools"
  `},
 
- or if you wish to use existing category note the value of key `name` eg. resources
+ or if you wish to use existing category note the value of key `name` eg. documentations (Plurals)
 
 - Look for the JSON file with the Identified category appended with "Links" as postfix if you wish to use the existing one.
-eg. resourcesLinks.json
+eg. documentationsLinks.json
 
 OR
 
@@ -30,7 +30,7 @@ eg.
     {
         "name": "Laravel",
         "url": "https://laravel.com",
-        "category": "documentation",
+        "category": "documentations",
         "description": "Official Laravel guide."
     }
 
@@ -38,7 +38,7 @@ eg.
 
 -  Open file `Store/index.js` and Import the new category and register under stage object.
  `state: {
-    tools, hosting, resources, courses, documentation
+    tools, hostings, resources, courses, documentations
   }`
 
 
@@ -65,5 +65,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Badges!
+### Badges!
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d90dc16-3e1f-4d37-84d8-97b6ad689aa2/deploy-status)](https://app.netlify.com/sites/dev-wiki/deploys)

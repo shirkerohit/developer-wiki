@@ -2,19 +2,19 @@
     {
         "name": "Netlify",
         "url": "https://netlify.com",
-        "category": "resource",
+        "category": "hostings",
         "description": "Free Hosting"
     },
     {
         "name": "Heroku",
         "url": "https://heroku.com",
-        "category": "resource",
+        "category": "hostings",
         "description": "Free Hosting"
     },
     {
         "name": "Surge",
         "url": "https://surge.sh",
-        "category": "resource",
+        "category": "hostings",
         "description": "Free Hosting"
     }
 ]

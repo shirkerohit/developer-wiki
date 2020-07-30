@@ -2,13 +2,13 @@
     {
         "name": "Freepik",
         "url": "https://freepik.com",
-        "category": "documentation",
+        "category": "resources",
         "description": "Free Images, Icons,Illustation"
     },
     {
         "name": "Fontawesome",
         "url": "https://fontawesome.com",
-        "category": "documentation",
+        "category": "resources",
         "description": "Free Icons"
     }
 ]
