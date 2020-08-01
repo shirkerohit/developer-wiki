@@ -1,20 +1,23 @@
 <template>
-  <div style="max-height=300px;overflow-y:scroll;overflow-x:hidden;">
-    <controls v-on:bindCategory="bindCategory" v-on:search="search"></controls>
-    <code>
-      <b-table v-if="filtered.length > 0" :items="filtered">
-        <template v-slot:cell(url)="data">
-          <a target="_blank" v-bind:href="data.item.url">{{data.item.url}}</a>
-        </template>
-      </b-table>
+  <div class="row mt-2">
+    <div class="col-12 bg-white">
+      <controls v-on:bindCategory="bindCategory" v-on:search="search"></controls>
+      <code>
+        <b-table v-if="filtered.length > 0" :items="filtered">
+          <template v-slot:cell(url)="data">
+            <a target="_blank" v-bind:href="data.item.url">{{data.item.url}}</a>
+          </template>
+        </b-table>
+        <div
+          class="alert alert-danger"
+          v-if="filtered.length === 0 && searchTerm !== ''"
+        >Woops! Seems like we need to update our resource list!</div>
+      </code>
       <div
-        class="text-center display-4 text-info"
+        class="jumbotron bg-light text-center display-4 text-info"
         v-if="(filtered.length === 0 && searchTerm === '')"
       >Choose Your category & Lets begin the search!</div>
-      <div
-        v-if="filtered.length === 0 && searchTerm !== ''"
-      >Woops! Seems like we need to update our resource list!</div>
-    </code>
+    </div>
   </div>
 </template>
 <script>
@@ -56,3 +59,9 @@ export default {
   }
 }
 </script>
+<style scoped>
+html,
+body {
+  height: 100%;
+}
+</style>
