@@ -12,12 +12,6 @@
         "description": "Official Laravel guide."
     },
     {
-        "name": "Laravel",
-        "url": "https://laravel.com",
-        "category": "documentations",
-        "description": "Official Laravel guide."
-    },
-    {
         "name": "React",
         "url": "https://reactjs.org",
         "category": "documentations",
@@ -28,12 +22,6 @@
         "url": "https://angular.io",
         "category": "documentations",
         "description": "Official Angular guide."
-    },
-    {
-        "name": "React",
-        "url": "https://reactjs.org",
-        "category": "documentations",
-        "description": "Official React guide."
     },
     {
         "name": "Tailwind",

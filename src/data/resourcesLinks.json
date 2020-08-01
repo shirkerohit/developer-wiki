@@ -10,5 +10,11 @@
         "url": "https://fontawesome.com",
         "category": "resources",
         "description": "Free Icons"
+    },
+    {
+        "name": "Tinyjpg",
+        "url": "https://tinyjpg.com/",
+        "category": "resources",
+        "description": "Compress Images jpeg,png online"
     }
 ]

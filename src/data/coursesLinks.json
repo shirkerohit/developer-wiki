@@ -22,5 +22,11 @@
         "url": "https://vueschool.io",
         "category": "cources",
         "description": "VueJs tutorials."
+    },
+    {
+        "name": "Markdown Guide",
+        "url": "https://www.markdownguide.org",
+        "category": "cources",
+        "description": "Learn how to write markdown. (Readme files)"
     }
 ]

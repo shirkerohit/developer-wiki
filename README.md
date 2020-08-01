@@ -1,6 +1,8 @@
 # dev-wiki
 This is just a beta version of overall Idea. A site of index cureated by developer for developers.
 
+- [dev-wiki.netlify.app](https://dev-wiki.netlify.app/)
+
 # #Contribution Guide.
 
 # - Add new Resource link.
