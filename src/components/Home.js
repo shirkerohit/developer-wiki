@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, Library, Database, BookOpen, Code2, Layout, ExternalLink, Camera } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 import { Input } from './ui/input';
@@ -27,6 +27,21 @@ export default function Home() {
 
     const [selectedCategory, setSelectedCategory] = useState('All');
     const [searchQuery, setSearchQuery] = useState('');
+    const searchInputRef = useRef(null);
+
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === '/') {
+                event.preventDefault();
+                searchInputRef.current.focus();
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     // Custom search function
     const searchResources = (resources, query) => {
@@ -73,27 +88,31 @@ export default function Home() {
             {/* Header */}
             <header className="bg-white border-b">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-                        <div className="flex items-center">
-                            <Library className="h-8 w-8 text-blue-600" />
-                            <h1 className="ml-2 text-2xl font-bold text-gray-900">DevWiki</h1>
-                        </div>
-                        <div className="mt-4 md:mt-0 relative">
-                            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
-                            <Input
-                                type="text"
-                                placeholder="Search resources..."
-                                className="pl-10 w-full md:w-64"
-                                value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
-                            />
-                        </div>
+                    <div className="flex items-center">
+                        <Library className="h-8 w-8 text-blue-600" />
+                        <h1 className="ml-2 text-2xl font-bold text-gray-900">DevWiki</h1>
+                    </div>
+                    <div className="flex justify-end space-x-4">
+                        <a href="/about" className="text-gray-700 hover:text-gray-900">About</a>
+                        <a href="/contact" className="text-gray-700 hover:text-gray-900">Contact</a>
+                        <a href="/contribution-guide" className="text-gray-700 hover:text-gray-900">Contribution Guide</a>
                     </div>
                 </div>
             </header>
 
-            {/* Category filters */}
+            {/* Search and Category filters */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div className="relative mx-auto mb-6">
+                    <Input
+                        type="text"
+                        placeholder="Search resources... (Press '/' to focus)"
+                        className="pl-10 w-full"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        ref={searchInputRef}
+                    />
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                </div>
                 <div className="flex flex-wrap gap-2">
                     {categories.map(({ name, icon: Icon }) => (
                         <button
