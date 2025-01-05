@@ -9,6 +9,7 @@ import documentation from '../data/resources/documentation';
 import hosting from '../data/resources/hosting';
 import tools from '../data/resources/tools';
 import Header from './Header';
+import Footer from './Footer';
 
 const categories = [
     { searchKey: 'all', name: 'All', icon: Library },
@@ -130,7 +131,12 @@ export default function Home() {
                         <Card key={index} className="hover:shadow-lg transition-shadow">
                             <CardHeader className="pb-3 flex">
                                 <div className="flex justify-between">
-                                    <CardTitle className="text-lg">{resource.title}</CardTitle>
+                                    <CardTitle className="text-lg">
+                                        {resource.title}
+                                        <span className='pl-2'>
+                                            ({resource.category})
+                                        </span>
+                                    </CardTitle>
                                     <a
                                         href={resource.url}
                                         target="_blank"
@@ -157,13 +163,23 @@ export default function Home() {
                                     className="flex items-center text-gray-600 hover:text-gray-900"
                                 >
                                     <Camera className="h-4 w-4 mr-2" />
-                                    <span className="text-sm">Contributed by {resource.contributor.name}</span>
+                                    <span className="text-sm">Contributed by : &nbsp;
+                                        <a href="{{resources.contributor.github}}"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-gray-600 hover:text-blue-800">
+                                            {resource.contributor.name}
+                                        </a>
+                                    </span>
                                 </a>
                             </CardFooter>
                         </Card>
                     ))}
                 </div>
             </main>
+
+            {/* Footer */}
+            <Footer />
         </div>
     );
 }

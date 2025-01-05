@@ -5,8 +5,8 @@ const category =
             description: "AI pair programmer to assist with coding.",
             category: "tools",
             contributor: {
-                name: "github",
-                github: "https://github.com/github"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://github.com/features/copilot",
             tags: ["ai", "coding", "development"]
@@ -16,8 +16,8 @@ const category =
             description: "Platform for API development and testing.",
             category: "tools",
             contributor: {
-                name: "postman",
-                github: "https://github.com/postmanlabs"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.postman.com/",
             tags: ["api", "testing", "productivity"]
@@ -27,8 +27,8 @@ const category =
             description: "Collaborative interface design and prototyping tool.",
             category: "tools",
             contributor: {
-                name: "figma",
-                github: "https://github.com/figma"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.figma.com/",
             tags: ["design", "ui", "collaboration"]
@@ -38,8 +38,8 @@ const category =
             description: "Platform to develop, ship, and run applications in containers.",
             category: "tools",
             contributor: {
-                name: "docker",
-                github: "https://github.com/docker"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.docker.com/",
             tags: ["containers", "development", "productivity"]
@@ -49,8 +49,8 @@ const category =
             description: "Source-code editor with powerful tools for developers.",
             category: "tools",
             contributor: {
-                name: "microsoft",
-                github: "https://github.com/microsoft/vscode"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://code.visualstudio.com/",
             tags: ["editor", "development", "productivity"]
@@ -60,8 +60,8 @@ const category =
             description: "Open-source automation server for continuous integration and delivery.",
             category: "tools",
             contributor: {
-                name: "jenkins",
-                github: "https://github.com/jenkinsci"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.jenkins.io/",
             tags: ["ci", "automation", "development"]
@@ -71,8 +71,8 @@ const category =
             description: "Infrastructure as Code tool for building and managing infrastructure.",
             category: "tools",
             contributor: {
-                name: "hashicorp",
-                github: "https://github.com/hashicorp/terraform"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.terraform.io/",
             tags: ["infrastructure", "automation", "development"]
@@ -82,8 +82,8 @@ const category =
             description: "Container orchestration platform for automating application deployment.",
             category: "tools",
             contributor: {
-                name: "kubernetes",
-                github: "https://github.com/kubernetes/kubernetes"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://kubernetes.io/",
             tags: ["containers", "orchestration", "automation"]
@@ -93,8 +93,8 @@ const category =
             description: "IT automation tool for configuration management, provisioning, and deployment.",
             category: "tools",
             contributor: {
-                name: "ansible",
-                github: "https://github.com/ansible/ansible"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.ansible.com/",
             tags: ["automation", "deployment", "configuration"]
@@ -104,8 +104,8 @@ const category =
             description: "Agile project management tool for planning and tracking software development.",
             category: "tools",
             contributor: {
-                name: "atlassian",
-                github: "https://github.com/atlassian"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.atlassian.com/software/jira",
             tags: ["project-management", "agile", "development"]
@@ -115,8 +115,8 @@ const category =
             description: "Online editor for testing and sharing web development code snippets.",
             category: "tools",
             contributor: {
-                name: "jsfiddle",
-                github: "https://github.com/jsfiddle"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://jsfiddle.net/",
             tags: ["web-development", "coding", "testing"]
@@ -126,8 +126,8 @@ const category =
             description: "Online code editor and community for front-end developers.",
             category: "tools",
             contributor: {
-                name: "codepen",
-                github: "https://github.com/CodePen"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://codepen.io/",
             tags: ["web-development", "front-end", "design"]
@@ -137,8 +137,8 @@ const category =
             description: "Online IDE for rapid web application prototyping and development.",
             category: "tools",
             contributor: {
-                name: "codesandbox",
-                github: "https://github.com/codesandbox"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://codesandbox.io/",
             tags: ["web-development", "coding", "collaboration"]
@@ -148,8 +148,8 @@ const category =
             description: "Integrated development environment for Python development.",
             category: "tools",
             contributor: {
-                name: "jetbrains",
-                github: "https://github.com/JetBrains"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.jetbrains.com/pycharm/",
             tags: ["python", "development", "ide"]
@@ -159,8 +159,8 @@ const category =
             description: "GUI for managing and querying MongoDB databases.",
             category: "tools",
             contributor: {
-                name: "robo3t",
-                github: "https://github.com/Studio3T/robomongo"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://robomongo.org/",
             tags: ["database", "mongoDB", "productivity"]
@@ -171,8 +171,8 @@ const category =
             description: "A powerful IDE for PHP and web development.",
             category: "tools",
             contributor: {
-                name: "jetbrains",
-                github: "https://github.com/JetBrains"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.jetbrains.com/phpstorm/",
             tags: ["php", "development", "ide"]
@@ -182,8 +182,8 @@ const category =
             description: "Database IDE for developers working with SQL and databases.",
             category: "tools",
             contributor: {
-                name: "jetbrains",
-                github: "https://github.com/JetBrains"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.jetbrains.com/datagrip/",
             tags: ["sql", "database", "ide"]
@@ -193,8 +193,8 @@ const category =
             description: "Powerful text editor targeted towards programmers and web developers.",
             category: "tools",
             contributor: {
-                name: "bluefish",
-                github: "https://github.com/oliverschmidt/bluefish"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "http://bluefish.openoffice.nl/",
             tags: ["editor", "web-development", "coding"]
@@ -204,8 +204,8 @@ const category =
             description: "IDE designed specifically for R and statistical computing.",
             category: "tools",
             contributor: {
-                name: "rstudio",
-                github: "https://github.com/rstudio"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://posit.co/products/open-source/rstudio/",
             tags: ["data-science", "r", "development"]
@@ -215,8 +215,8 @@ const category =
             description: "Scientific Python IDE designed for data analysis and machine learning.",
             category: "tools",
             contributor: {
-                name: "spyder",
-                github: "https://github.com/spyder-ide/spyder"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.spyder-ide.org/",
             tags: ["python", "data-science", "ide"]
@@ -226,8 +226,8 @@ const category =
             description: "Lightweight yet powerful code editor for web design and development.",
             category: "tools",
             contributor: {
-                name: "adobe",
-                github: "https://github.com/adobe/brackets"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "http://brackets.io/",
             tags: ["web-development", "editor", "html"]
@@ -237,8 +237,8 @@ const category =
             description: "Popular IDE for Java and other programming languages.",
             category: "tools",
             contributor: {
-                name: "eclipse",
-                github: "https://github.com/eclipse"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.eclipse.org/",
             tags: ["java", "development", "ide"]
@@ -248,8 +248,8 @@ const category =
             description: "IDE for Java, PHP, HTML5, and more.",
             category: "tools",
             contributor: {
-                name: "apache",
-                github: "https://github.com/apache/netbeans"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://netbeans.apache.org/",
             tags: ["java", "php", "ide"]
@@ -259,8 +259,8 @@ const category =
             description: "Cross-platform C++ IDE for GUI development.",
             category: "tools",
             contributor: {
-                name: "qt",
-                github: "https://github.com/qt"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.qt.io/product/development-tools",
             tags: ["c++", "gui", "ide"]
@@ -270,8 +270,8 @@ const category =
             description: "Open-source game engine with an integrated development environment.",
             category: "tools",
             contributor: {
-                name: "godot",
-                github: "https://github.com/godotengine/godot"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://godotengine.org/",
             tags: ["game-development", "engine", "open-source"]
@@ -281,8 +281,8 @@ const category =
             description: "Cross-platform game engine for creating interactive experiences.",
             category: "tools",
             contributor: {
-                name: "unity",
-                github: "https://github.com/Unity-Technologies"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://unity.com/",
             tags: ["game-development", "3d", "editor"]
@@ -292,8 +292,8 @@ const category =
             description: "Knowledge management and note-taking tool for developers.",
             category: "tools",
             contributor: {
-                name: "obsidian",
-                github: "https://github.com/obsidianmd"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://obsidian.md/",
             tags: ["productivity", "notes", "markdown"]
@@ -303,8 +303,8 @@ const category =
             description: "Hackable text editor for developers.",
             category: "tools",
             contributor: {
-                name: "github",
-                github: "https://github.com/atom"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://atom.io/",
             tags: ["editor", "development", "customizable"]
@@ -314,8 +314,8 @@ const category =
             description: "Open-source image editor for designers and developers.",
             category: "tools",
             contributor: {
-                name: "gimp",
-                github: "https://github.com/GNOME/gimp"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.gimp.org/",
             tags: ["design", "image-editing", "open-source"]
@@ -326,8 +326,8 @@ const category =
             description: "Universal database tool for developers and database administrators.",
             category: "tools",
             contributor: {
-                name: "dbeaver",
-                github: "https://github.com/dbeaver/dbeaver"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://dbeaver.io/",
             tags: ["database", "sql", "management"]
@@ -337,8 +337,8 @@ const category =
             description: "A lightweight, open-source SQLite database manager.",
             category: "tools",
             contributor: {
-                name: "sqlitestudio",
-                github: "https://github.com/pawelsalawa/sqlitestudio"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://sqlitestudio.pl/",
             tags: ["database", "sqlite", "management"]
@@ -348,8 +348,8 @@ const category =
             description: "Modern, native, and friendly GUI tool for relational databases.",
             category: "tools",
             contributor: {
-                name: "tableplus",
-                github: "https://github.com/TablePlus"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://tableplus.com/",
             tags: ["database", "sql", "gui"]
@@ -359,8 +359,8 @@ const category =
             description: "Open-source tool for performance and load testing.",
             category: "tools",
             contributor: {
-                name: "apache",
-                github: "https://github.com/apache/jmeter"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://jmeter.apache.org/",
             tags: ["testing", "performance", "load-testing"]
@@ -370,8 +370,8 @@ const category =
             description: "IDE for macOS and iOS development.",
             category: "tools",
             contributor: {
-                name: "apple",
-                github: "https://github.com/apple"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://developer.apple.com/xcode/",
             tags: ["ios", "macos", "development"]
@@ -381,8 +381,8 @@ const category =
             description: "JetBrains IDE for modern JavaScript development.",
             category: "tools",
             contributor: {
-                name: "jetbrains",
-                github: "https://github.com/JetBrains"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.jetbrains.com/webstorm/",
             tags: ["javascript", "development", "ide"]
@@ -392,8 +392,8 @@ const category =
             description: "Open-source prototyping and wireframing tool.",
             category: "tools",
             contributor: {
-                name: "evolus",
-                github: "https://github.com/evolus/pencil"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://pencil.evolus.vn/",
             tags: ["wireframing", "design", "prototyping"]
@@ -403,8 +403,8 @@ const category =
             description: "Modern PostgreSQL client for macOS.",
             category: "tools",
             contributor: {
-                name: "eggerapps",
-                github: "https://github.com/eggerapps"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://eggerapps.at/postico/",
             tags: ["database", "postgresql", "client"]
@@ -414,8 +414,8 @@ const category =
             description: "Comprehensive PostgreSQL database management tool.",
             category: "tools",
             contributor: {
-                name: "pgadmin",
-                github: "https://github.com/postgres/pgadmin"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.pgadmin.org/",
             tags: ["database", "postgresql", "management"]
@@ -425,8 +425,8 @@ const category =
             description: "Open-source business intelligence tool for analyzing data.",
             category: "tools",
             contributor: {
-                name: "metabase",
-                github: "https://github.com/metabase/metabase"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.metabase.com/",
             tags: ["data-analysis", "business-intelligence", "open-source"]
@@ -436,8 +436,8 @@ const category =
             description: "Git client built by the creators of Sublime Text.",
             category: "tools",
             contributor: {
-                name: "sublimehq",
-                github: "https://github.com/sublimehq"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.sublimemerge.com/",
             tags: ["git", "version-control", "development"]
@@ -447,8 +447,8 @@ const category =
             description: "Tool for managing Kubernetes applications.",
             category: "tools",
             contributor: {
-                name: "helm",
-                github: "https://github.com/helm/helm"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://helm.sh/",
             tags: ["kubernetes", "orchestration", "containers"]
@@ -458,8 +458,8 @@ const category =
             description: "Powerful shell for developers with advanced scripting capabilities.",
             category: "tools",
             contributor: {
-                name: "zsh",
-                github: "https://github.com/zsh-users"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://www.zsh.org/",
             tags: ["shell", "scripting", "productivity"]
@@ -469,8 +469,8 @@ const category =
             description: "Framework for managing Zsh configuration with plugins and themes.",
             category: "tools",
             contributor: {
-                name: "ohmyzsh",
-                github: "https://github.com/ohmyzsh/ohmyzsh"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://ohmyz.sh/",
             tags: ["shell", "zsh", "customization"]
@@ -480,8 +480,8 @@ const category =
             description: "Tool for recording and sharing terminal sessions.",
             category: "tools",
             contributor: {
-                name: "asciinema",
-                github: "https://github.com/asciinema/asciinema"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://asciinema.org/",
             tags: ["terminal", "recording", "sharing"]
@@ -491,8 +491,8 @@ const category =
             description: "Web-based tool for encryption, encoding, and data analysis.",
             category: "tools",
             contributor: {
-                name: "gchq",
-                github: "https://github.com/gchq/CyberChef"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://gchq.github.io/CyberChef/",
             tags: ["data", "analysis", "encryption"]
@@ -502,8 +502,8 @@ const category =
             description: "Tool for validating YAML syntax.",
             category: "tools",
             contributor: {
-                name: "yamllint",
-                github: "https://github.com/adrienverge/yamllint"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://yamllint.com/",
             tags: ["yaml", "validation", "syntax"]
@@ -513,8 +513,8 @@ const category =
             description: "Online regex editor and debugger with real-time results.",
             category: "tools",
             contributor: {
-                name: "firasdib",
-                github: "https://github.com/firasdib/Regex101"
+                name: "Rohit S",
+                github: "https://github.com/shirkerohit"
             },
             url: "https://regex101.com/",
             tags: ["regex", "testing", "development"]

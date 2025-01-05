@@ -13,7 +13,7 @@ export function CardTitle({ children, className }) {
 }
 
 export function CardDescription({ children }) {
-    return <p className="text-gray-600 text-left">{children}</p>;
+    return <p className="text-gray-600 text-left mt-3">{children}</p>;
 }
 
 export function CardContent({ children }) {

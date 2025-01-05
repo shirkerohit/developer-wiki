@@ -4,8 +4,8 @@ const documentation = [
         "description": "Official documentation for the Laravel PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "laravelteam",
-            "github": "https://github.com/laravelteam"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://laravel.com/docs",
         "tags": [
@@ -19,8 +19,8 @@ const documentation = [
         "description": "Official documentation for the Django Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "djangoproject",
-            "github": "https://github.com/djangoproject"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.djangoproject.com",
         "tags": [
@@ -34,8 +34,8 @@ const documentation = [
         "description": "Official guides for the Ruby on Rails framework.",
         "category": "documentation",
         "contributor": {
-            "name": "rails",
-            "github": "https://github.com/rails"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://guides.rubyonrails.org",
         "tags": [
@@ -49,8 +49,8 @@ const documentation = [
         "description": "Official reference documentation for the Spring Framework.",
         "category": "documentation",
         "contributor": {
-            "name": "spring-projects",
-            "github": "https://github.com/spring-projects"
+            "name": "Rohit S-projects",
+            "github": "https://github.com/shirkerohit-projects"
         },
         "url": "https://docs.spring.io/spring-framework/docs/current/reference/html/",
         "tags": [
@@ -64,8 +64,8 @@ const documentation = [
         "description": "Official documentation for the Angular framework.",
         "category": "documentation",
         "contributor": {
-            "name": "angular",
-            "github": "https://github.com/angular"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://angular.io/docs",
         "tags": [
@@ -79,8 +79,8 @@ const documentation = [
         "description": "Official documentation for the React library.",
         "category": "documentation",
         "contributor": {
-            "name": "facebook",
-            "github": "https://github.com/facebook"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://react.dev/learn",
         "tags": [
@@ -94,8 +94,8 @@ const documentation = [
         "description": "Official documentation for the Vue.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "vuejs",
-            "github": "https://github.com/vuejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://vuejs.org/v2/guide/",
         "tags": [
@@ -109,8 +109,8 @@ const documentation = [
         "description": "Official documentation for Node.js.",
         "category": "documentation",
         "contributor": {
-            "name": "nodejs",
-            "github": "https://github.com/nodejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://nodejs.org/en/docs/",
         "tags": [
@@ -124,8 +124,8 @@ const documentation = [
         "description": "Official documentation for the Flask Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "pallets",
-            "github": "https://github.com/pallets"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://flask.palletsprojects.com/en/latest/",
         "tags": [
@@ -139,8 +139,8 @@ const documentation = [
         "description": "Official documentation for the Express.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "expressjs",
-            "github": "https://github.com/expressjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://expressjs.com",
         "tags": [
@@ -154,8 +154,8 @@ const documentation = [
         "description": "Official documentation for the Symfony PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "symfony",
-            "github": "https://github.com/symfony"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://symfony.com/doc/current/index.html",
         "tags": [
@@ -169,8 +169,8 @@ const documentation = [
         "description": "Official documentation for the Svelte framework.",
         "category": "documentation",
         "contributor": {
-            "name": "sveltejs",
-            "github": "https://github.com/sveltejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://svelte.dev/docs",
         "tags": [
@@ -184,8 +184,8 @@ const documentation = [
         "description": "Official guides for the Ember.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "emberjs",
-            "github": "https://github.com/emberjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://guides.emberjs.com",
         "tags": [
@@ -199,8 +199,8 @@ const documentation = [
         "description": "Official documentation for the Backbone.js library.",
         "category": "documentation",
         "contributor": {
-            "name": "jashkenas",
-            "github": "https://github.com/jashkenas"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://backbonejs.org",
         "tags": [
@@ -214,8 +214,8 @@ const documentation = [
         "description": "Official documentation for the Meteor framework.",
         "category": "documentation",
         "contributor": {
-            "name": "meteor",
-            "github": "https://github.com/meteor"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.meteor.com",
         "tags": [
@@ -229,8 +229,8 @@ const documentation = [
         "description": "Official documentation for the CakePHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "cakephp",
-            "github": "https://github.com/cakephp"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://book.cakephp.org",
         "tags": [
@@ -244,8 +244,8 @@ const documentation = [
         "description": "Official documentation for the CodeIgniter PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "codeigniter",
-            "github": "https://github.com/bcit-ci"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit-ci"
         },
         "url": "https://codeigniter.com/user_guide",
         "tags": [
@@ -259,8 +259,8 @@ const documentation = [
         "description": "Official documentation for ASP.NET Core.",
         "category": "documentation",
         "contributor": {
-            "name": "dotnet",
-            "github": "https://github.com/dotnet"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.microsoft.com/en-us/aspnet/core/",
         "tags": [
@@ -274,8 +274,8 @@ const documentation = [
         "description": "Official reference documentation for the Spring Framework.",
         "category": "documentation",
         "contributor": {
-            "name": "spring-projects",
-            "github": "https://github.com/spring-projects"
+            "name": "Rohit S-projects",
+            "github": "https://github.com/shirkerohit-projects"
         },
         "url": "https://docs.spring.io/spring-framework/docs/current/reference/html/",
         "tags": [
@@ -289,8 +289,8 @@ const documentation = [
         "description": "Official documentation for the Flask Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "pallets",
-            "github": "https://github.com/pallets"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://flask.palletsprojects.com/en/latest/",
         "tags": [
@@ -304,8 +304,8 @@ const documentation = [
         "description": "Official documentation for the Express.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "expressjs",
-            "github": "https://github.com/expressjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://expressjs.com",
         "tags": [
@@ -319,8 +319,8 @@ const documentation = [
         "description": "Official documentation for the Symfony PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "symfony",
-            "github": "https://github.com/symfony"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://symfony.com/doc/current/index.html",
         "tags": [
@@ -334,8 +334,8 @@ const documentation = [
         "description": "Official documentation for the Svelte framework.",
         "category": "documentation",
         "contributor": {
-            "name": "sveltejs",
-            "github": "https://github.com/sveltejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://svelte.dev/docs",
         "tags": [
@@ -349,8 +349,8 @@ const documentation = [
         "description": "Official guides for the Ember.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "emberjs",
-            "github": "https://github.com/emberjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://guides.emberjs.com",
         "tags": [
@@ -364,8 +364,8 @@ const documentation = [
         "description": "Official documentation for the Backbone.js library.",
         "category": "documentation",
         "contributor": {
-            "name": "jashkenas",
-            "github": "https://github.com/jashkenas"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://backbonejs.org",
         "tags": [
@@ -379,8 +379,8 @@ const documentation = [
         "description": "Official documentation for the Meteor framework.",
         "category": "documentation",
         "contributor": {
-            "name": "meteor",
-            "github": "https://github.com/meteor"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.meteor.com",
         "tags": [
@@ -394,8 +394,8 @@ const documentation = [
         "description": "Official documentation for the CakePHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "cakephp",
-            "github": "https://github.com/cakephp"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://book.cakephp.org",
         "tags": [
@@ -409,8 +409,8 @@ const documentation = [
         "description": "Official documentation for the CodeIgniter PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "codeigniter",
-            "github": "https://github.com/bcit-ci"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit-ci"
         },
         "url": "https://codeigniter.com/user_guide",
         "tags": [
@@ -424,8 +424,8 @@ const documentation = [
         "description": "Official documentation for ASP.NET Core.",
         "category": "documentation",
         "contributor": {
-            "name": "dotnet",
-            "github": "https://github.com/dotnet"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.microsoft.com/en-us/aspnet/core/",
         "tags": [
@@ -439,8 +439,8 @@ const documentation = [
         "description": "Official reference documentation for the Spring Framework.",
         "category": "documentation",
         "contributor": {
-            "name": "spring-projects",
-            "github": "https://github.com/spring-projects"
+            "name": "Rohit S-projects",
+            "github": "https://github.com/shirkerohit-projects"
         },
         "url": "https://docs.spring.io/spring-framework/docs/current/reference/html/",
         "tags": [
@@ -454,8 +454,8 @@ const documentation = [
         "description": "Official documentation for the Flask Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "pallets",
-            "github": "https://github.com/pallets"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://flask.palletsprojects.com/en/latest/",
         "tags": [
@@ -469,8 +469,8 @@ const documentation = [
         "description": "Official documentation for the Express.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "expressjs",
-            "github": "https://github.com/expressjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://expressjs.com",
         "tags": [
@@ -484,8 +484,8 @@ const documentation = [
         "description": "Official documentation for the Symfony PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "symfony",
-            "github": "https://github.com/symfony"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://symfony.com/doc/current/index.html",
         "tags": [
@@ -499,8 +499,8 @@ const documentation = [
         "description": "Official documentation for the Django Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "django",
-            "github": "https://github.com/django"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.djangoproject.com/en/stable/",
         "tags": [
@@ -514,8 +514,8 @@ const documentation = [
         "description": "Official guides for the Ruby on Rails framework.",
         "category": "documentation",
         "contributor": {
-            "name": "rails",
-            "github": "https://github.com/rails"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://guides.rubyonrails.org",
         "tags": [
@@ -529,8 +529,8 @@ const documentation = [
         "description": "Official documentation for the Angular framework.",
         "category": "documentation",
         "contributor": {
-            "name": "angular",
-            "github": "https://github.com/angular"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://angular.io/docs",
         "tags": [
@@ -544,8 +544,8 @@ const documentation = [
         "description": "Official documentation for the React library.",
         "category": "documentation",
         "contributor": {
-            "name": "react",
-            "github": "https://github.com/facebook/react"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit/react"
         },
         "url": "https://reactjs.org/docs/getting-started.html",
         "tags": [
@@ -559,8 +559,8 @@ const documentation = [
         "description": "Official documentation for the Vue.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "vuejs",
-            "github": "https://github.com/vuejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://vuejs.org/v2/guide/",
         "tags": [
@@ -574,8 +574,8 @@ const documentation = [
         "description": "Official documentation for the Svelte framework.",
         "category": "documentation",
         "contributor": {
-            "name": "sveltejs",
-            "github": "https://github.com/sveltejs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://svelte.dev/docs",
         "tags": [
@@ -589,8 +589,8 @@ const documentation = [
         "description": "Official guides for the Ember.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "emberjs",
-            "github": "https://github.com/emberjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://guides.emberjs.com",
         "tags": [
@@ -604,8 +604,8 @@ const documentation = [
         "description": "Official documentation for the Backbone.js library.",
         "category": "documentation",
         "contributor": {
-            "name": "jashkenas",
-            "github": "https://github.com/jashkenas"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://backbonejs.org",
         "tags": [
@@ -619,8 +619,8 @@ const documentation = [
         "description": "Official documentation for the Meteor framework.",
         "category": "documentation",
         "contributor": {
-            "name": "meteor",
-            "github": "https://github.com/meteor"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.meteor.com",
         "tags": [
@@ -634,8 +634,8 @@ const documentation = [
         "description": "Official documentation for the CakePHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "cakephp",
-            "github": "https://github.com/cakephp"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://book.cakephp.org",
         "tags": [
@@ -649,8 +649,8 @@ const documentation = [
         "description": "Official documentation for the CodeIgniter PHP framework.",
         "category": "documentation",
         "contributor": {
-            "name": "codeigniter",
-            "github": "https://github.com/bcit-ci"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit-ci"
         },
         "url": "https://codeigniter.com/user_guide",
         "tags": [
@@ -664,8 +664,8 @@ const documentation = [
         "description": "Official documentation for ASP.NET Core.",
         "category": "documentation",
         "contributor": {
-            "name": "dotnet",
-            "github": "https://github.com/dotnet"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://docs.microsoft.com/en-us/aspnet/core/",
         "tags": [
@@ -679,8 +679,8 @@ const documentation = [
         "description": "Official reference documentation for the Spring Framework.",
         "category": "documentation",
         "contributor": {
-            "name": "spring-projects",
-            "github": "https://github.com/spring-projects"
+            "name": "Rohit S-projects",
+            "github": "https://github.com/shirkerohit-projects"
         },
         "url": "https://docs.spring.io/spring-framework/docs/current/reference/html/",
         "tags": [
@@ -694,8 +694,8 @@ const documentation = [
         "description": "Official documentation for the Flask Python framework.",
         "category": "documentation",
         "contributor": {
-            "name": "pallets",
-            "github": "https://github.com/pallets"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://flask.palletsprojects.com/en/latest/",
         "tags": [
@@ -709,8 +709,8 @@ const documentation = [
         "description": "Official documentation for the Express.js framework.",
         "category": "documentation",
         "contributor": {
-            "name": "expressjs",
-            "github": "https://github.com/expressjs"
+            "name": "Rohit S",
+            "github": "https://github.com/shirkerohit"
         },
         "url": "https://expressjs.com",
         "tags": [
