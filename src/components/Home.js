@@ -4,23 +4,23 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from './ui/input';
 import { Badge } from './ui/badge';
 
-import courses from '../data/courses';
-import documentation from '../data/documentation';
-import hosting from '../data/hosting';
-import tools from '../data/tools';
+import courses from '../data/resources/courses';
+import documentation from '../data/resources/documentation';
+import hosting from '../data/resources/hosting';
+import tools from '../data/resources/tools';
 import Header from './Header';
 
 const categories = [
-    { name: 'All', icon: Library },
-    { name: 'Tools', icon: Code2 },
-    { name: 'Hosting', icon: Database },
-    { name: 'Documentation', icon: BookOpen },
-    { name: 'Courses', icon: Layout }
+    { searchKey: 'all', name: 'All', icon: Library },
+    { searchKey: 'tools', name: 'Tools', icon: Code2 },
+    { searchKey: 'hostings', name: 'Hosting', icon: Database },
+    { searchKey: 'documentation', name: 'Documentation', icon: BookOpen },
+    { searchKey: 'courses', name: 'Courses', icon: Layout }
 ];
 
 // Initial data - later can be moved to separate files
-const initialResources = [
-];
+const allResourcesSorted = [].concat(tools, hosting, documentation, courses).sort((a, b) => a.title.localeCompare(b.title));
+const initialResources = [].concat(allResourcesSorted);
 
 export default function Home() {
 
@@ -40,7 +40,18 @@ export default function Home() {
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
+
     }, []);
+
+    const setInitialSearch = () => {
+        setSearchQuery('database');
+        setSelectedCategory('all');
+    };
+
+    useEffect(() => {
+        setInitialSearch();
+    }, []);
+
 
     // Custom search function
     const searchResources = (resources, query) => {
@@ -62,17 +73,12 @@ export default function Home() {
 
     // Memoized filtered resources
     const filteredResources = useMemo(() => {
-
-        if (initialResources.length === 0) {
-            initialResources.push(...courses, ...documentation, ...hosting, ...tools);
-            // limit only 20 resources
-            initialResources.length = 20;
-        }
-
         let filtered = initialResources;
 
-        if (selectedCategory !== 'All') {
+        if (selectedCategory !== 'all') {
             filtered = filtered.filter(resource => resource.category === selectedCategory);
+        } else {
+            filtered.slice(0, 20);
         }
 
         if (searchQuery) {
@@ -101,12 +107,12 @@ export default function Home() {
                     <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                 </div>
                 <div className="flex flex-wrap gap-2">
-                    {categories.map(({ name, icon: Icon }) => (
+                    {categories.map(({ name, searchKey, icon: Icon }) => (
                         <button
                             key={name}
-                            onClick={() => setSelectedCategory(name)}
+                            onClick={() => setSelectedCategory(searchKey)}
                             className={`inline-flex items-center px-4 py-2 rounded-full text-sm font-medium transition-colors
-                ${selectedCategory === name
+                ${selectedCategory === searchKey
                                     ? 'bg-blue-600 text-white'
                                     : 'bg-white text-gray-700 hover:bg-gray-100'}`}
                         >

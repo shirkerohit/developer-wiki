@@ -13,6 +13,7 @@ function Header() {
                     </div>
                 </Link>
                 <div className="flex justify-end space-x-4">
+                    <Link to="/" className="text-gray-700 hover:text-gray-900">Home</Link>
                     <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
                     <Link to="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
                     <Link to="/contribution-guide" className="text-gray-700 hover:text-gray-900">Contribution Guide</Link>
