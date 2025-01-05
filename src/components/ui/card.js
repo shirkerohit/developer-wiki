@@ -5,7 +5,7 @@ export function Card({ children, className }) {
 }
 
 export function CardHeader({ children }) {
-    return <div className="p-4 border-b">{children}</div>;
+    return <div className="p-4 border-b flex flex-col">{children}</div>;
 }
 
 export function CardTitle({ children, className }) {

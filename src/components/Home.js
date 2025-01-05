@@ -87,7 +87,7 @@ export default function Home() {
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
             <header className="bg-white border-b">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <nav className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center'>
                     <div className="flex items-center">
                         <Library className="h-8 w-8 text-blue-600" />
                         <h1 className="ml-2 text-2xl font-bold text-gray-900">DevWiki</h1>
@@ -97,7 +97,7 @@ export default function Home() {
                         <a href="/contact" className="text-gray-700 hover:text-gray-900">Contact</a>
                         <a href="/contribution-guide" className="text-gray-700 hover:text-gray-900">Contribution Guide</a>
                     </div>
-                </div>
+                </nav>
             </header>
 
             {/* Search and Category filters */}
@@ -135,8 +135,8 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {filteredResources.map((resource, index) => (
                         <Card key={index} className="hover:shadow-lg transition-shadow">
-                            <CardHeader className="pb-3">
-                                <div className="flex justify-between items-start">
+                            <CardHeader className="pb-3 flex">
+                                <div className="flex justify-between">
                                     <CardTitle className="text-lg">{resource.title}</CardTitle>
                                     <a
                                         href={resource.url}
