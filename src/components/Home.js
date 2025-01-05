@@ -8,8 +8,7 @@ import courses from '../data/courses';
 import documentation from '../data/documentation';
 import hosting from '../data/hosting';
 import tools from '../data/tools';
-
-
+import Header from './Header';
 
 const categories = [
     { name: 'All', icon: Library },
@@ -86,19 +85,7 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-gray-50">
             {/* Header */}
-            <header className="bg-white border-b">
-                <nav className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center'>
-                    <div className="flex items-center">
-                        <Library className="h-8 w-8 text-blue-600" />
-                        <h1 className="ml-2 text-2xl font-bold text-gray-900">DevWiki</h1>
-                    </div>
-                    <div className="flex justify-end space-x-4">
-                        <a href="/about" className="text-gray-700 hover:text-gray-900">About</a>
-                        <a href="/contact" className="text-gray-700 hover:text-gray-900">Contact</a>
-                        <a href="/contribution-guide" className="text-gray-700 hover:text-gray-900">Contribution Guide</a>
-                    </div>
-                </nav>
-            </header>
+            <Header></Header>
 
             {/* Search and Category filters */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
