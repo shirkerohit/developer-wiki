@@ -21,7 +21,7 @@ export default function ContributionGuide() {
                 <p className="text-lg text-gray-700">
                     We welcome contributions from the community! If you would like to contribute to DevWiki, please follow
                     our contribution guidelines. You can find the guidelines on our
-                    <a href="https://github.com/devwiki/contribution-guide" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800"> GitHub repository</a>.
+                    <a href="https://github.com/shirkerohit/developer-wiki#" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800"> GitHub repository</a>.
                 </p>
                 <div className="mt-8 markdown-body !bg-white">
                     <div className="text-lg text-gray-700 !bg-white" dangerouslySetInnerHTML={{ __html: readme }} />
